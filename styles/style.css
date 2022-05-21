@@ -13,10 +13,19 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: 0px;
+}
+
 /* стилизация шапки сайта */
 .logo {
   font-family: Raleway, sans-serif;
-  font-size: 24px;
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
@@ -24,9 +33,10 @@ body {
   color: var(--dark-color-text);
 }
 
-.logo-text {
+.logo-accent {
   color: var(--accent-color);
 }
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-size: 24px;
@@ -36,7 +46,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo-text-footer {
+
+.logo-footer-accent {
   color: var(--white-text-color);
   font-family: Raleway, sans-serif;
   font-size: 24px;
@@ -50,6 +61,9 @@ body {
   text-decoration: none;
   color: #212121;
 }
+.nav-list:hover {
+  color: var(--accent-color);
+}
 .nav-ul {
   list-style-type: none;
 }
@@ -57,6 +71,10 @@ body {
 .nav-li {
   list-style-type: none;
   color: var(--primaty-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .nav-contact {
@@ -81,10 +99,6 @@ body {
   letter-spacing: 0.06em;
 }
 
-button {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-}
 /* Стилизация секции 1 преимущества */
 
 .benefit-title {
@@ -102,6 +116,7 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+
 /* Стилизация секции 3 Наша команда */
 .team {
 }
@@ -135,15 +150,29 @@ button {
 
 /* СТИЛИЗАЦИЯ СТРАНИЦЧКИ ПОРТФОЛИО */
 
-.portfolio-button {
-  /* text-decoration: none;
-  background-color: var(background-color-lightgrey); */
+.portfolio-nav {
   list-style: none;
   color: var(--primaty-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+
+.radiobutton-portfolio {
+  list-style: none;
+  text-decoration: none;
+  color: var(--primaty-text-color);
+  background-color: var(--background-color-lightgrey);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.radiobutton-portfolio:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-title {
@@ -162,11 +191,11 @@ button {
   letter-spacing: 0.03em;
 }
 .footer-adress {
-  text-decoration: none;
-  font-family: "Roboto";
+  /* text-decoration: none;
+  font-family: "Roboto"; */
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
