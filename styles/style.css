@@ -39,11 +39,11 @@ h2 {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--dark-color-text);
+  color: var(--accent-color);
 }
 
 .logo-accent {
-  color: var(--accent-color);
+  color: var(--dark-color-text);
 }
 
 .logo-footer {
@@ -89,11 +89,12 @@ h2 {
 }
 
 .nav-contact {
-  list-style-type: none;
+  /* list-style-type: none; */
   text-decoration: none;
   color: var(--secondary-text-color);
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -134,9 +135,9 @@ h2 {
 }
 
 .list {
+  color: var(--primaty-text-color);
   list-style: none;
   text-decoration: none;
-  color: var(--primaty-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -177,7 +178,6 @@ h2 {
 
 .footer-adress {
   color: var(--white-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -186,7 +186,6 @@ h2 {
 .footer-contact {
   color: var(--auxiliary-text-color);
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -194,7 +193,6 @@ h2 {
 
 .footer-adress {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -203,8 +201,8 @@ h2 {
 /* СТИЛИЗАЦИЯ СТРАНИЧКИ ПОРТФОЛИО */
 
 .portfolio-nav {
-  list-style: none;
   color: var(--primaty-text-color);
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -212,10 +210,10 @@ h2 {
 }
 
 .radiobutton-portfolio {
-  list-style: none;
-  text-decoration: none;
   color: var(--primaty-text-color);
   background-color: var(--background-color-lightgrey);
+  list-style: none;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -242,3 +240,7 @@ h2 {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
+/* .list-dot {
+  list-style-type: none;
+} */
