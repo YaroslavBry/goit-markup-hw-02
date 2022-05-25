@@ -79,6 +79,10 @@ h2 {
   list-style-type: none;
 }
 
+/* .nav-ul:hover {
+  color: var(--accent-color);
+} */
+
 .nav-li {
   list-style-type: none;
   color: var(--primaty-text-color);
@@ -89,13 +93,17 @@ h2 {
 }
 
 .nav-contact {
-  /* list-style-type: none; */
+  list-style-type: none;
   text-decoration: none;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-contant:hover {
+  color: var(--accent-color);
 }
 
 /* Стилизация банера */
@@ -210,6 +218,7 @@ h2 {
 }
 
 .radiobutton-portfolio {
+  font-family: Roboto, sans-serif;
   color: var(--primaty-text-color);
   background-color: var(--background-color-lightgrey);
   list-style: none;
